@@ -36,16 +36,17 @@ We now need to flash the firmware for:
 
 These steps are described [here](https://openuc2.github.io/docs/Toolboxes/DiscoveryFluorescence/LED_Fluoresence_microscope/#22-flashing-the-esp32-firmware).
 
-### 2) Assembling the Microscope
-
-We can now assemble the microscope! These steps are laid out [here](https://openuc2.github.io/docs/Toolboxes/DiscoveryFluorescence/LED_Fluoresence_microscope/#step-1-assemble-the-microscope).
 
 
-### 4) Testing the Electronics
+### 3) Testing the Electronics (optional)
 
-From [this page](https://youseetoo.github.io/indexWebSerialTest.html) you can test the electronics.
+With the electronics connected to **your laptop**, you can test the electronics from [this page](https://youseetoo.github.io/indexWebSerialTest.html) (note you should use Chrome or Edge):
 - Laser 2 for Blue LED
 - Motor control, Z stage
+
+### 4) Assembling the Microscope
+
+We can now assemble the microscope! These steps are laid out [here](https://openuc2.github.io/docs/Toolboxes/DiscoveryFluorescence/LED_Fluoresence_microscope/#step-1-assemble-the-microscope).
 
 ### 5) Using ImSwitch for remote control
 
