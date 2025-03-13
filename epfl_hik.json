@@ -1,0 +1,108 @@
+{
+    "positioners": {
+        "ESP32Stage": {
+          "managerName": "ESP32StageManager",
+          "managerProperties": {
+            "rs232device": "ESP32",
+            "isEnable": false,
+            "enableauto": true,
+            "stepsizeZ": 0.3125,
+            "stepsizeA": 0.3125,
+            "initialSpeed": {"X": 15000, "Y":  15000,"Z": 15000, "A": 15000}
+          },
+          "axes": [
+            "A",
+            "X",
+            "Y",
+            "Z"
+          ],
+          "forPositioning": true
+        }
+      },
+    "rs232devices": {
+    "ESP32": {
+      "managerName": "ESP32Manager",
+      "managerProperties": {
+        "host_": "192.168.43.129",
+        "serialport": "/dev/cu.SLAB_USBtoUART", 
+        "baudrate":115200, 
+        "debug":1
+      }
+    }
+  },
+  "lasers": {
+    "LED": {
+      "analogChannel": null,
+      "digitalLine": null,
+      "managerName": "ESP32LEDLaserManager",
+      "managerProperties": {
+        "rs232device": "ESP32",
+        "channel_index": 1
+      },
+      "wavelength": 635,
+      "valueRangeMin": 0,
+      "valueRangeMax": 1023
+    }
+  },
+  "detectors": {
+    "WidefieldCamera": {
+        "analogChannel": null,
+        "digitalLine": null,
+        "managerName": "HikCamManager",
+        "managerProperties": {
+            "isRGB": 0,
+            "cameraListIndex": 0,
+            "cameraEffPixelsize": 0.2257,
+            "hikcam": {
+                "exposure": 0,
+                "gain": 0,
+                "blacklevel": 100,
+                "image_width": 1000,
+                "image_height": 1000
+            }
+        },
+        "forAcquisition": true,
+        "forFocusLock": true
+    }
+    },
+  "rois": {
+    "Full chip": {
+      "x": 600,
+      "y": 600,
+      "w": 1200,
+      "h": 1200
+    }
+  },
+  "autofocus": {
+    "camera": "WidefieldCamera",
+    "positioner": "ESP32Stage",
+    "updateFreq": 10,
+    "frameCropx": 780,
+    "frameCropy": 400,
+    "frameCropw": 500,
+    "frameCroph": 100
+  },
+  "availableWidgets": [
+    "Settings",
+    "View",
+    "Recording",
+    "Image",
+    "Laser",
+    "Positioner",
+    "UC2Config",
+    "FlowStop"
+    ],
+  "nonAvailableWidgets":[
+    "UC2Config",
+    "LEDMatrix",
+    "Hypha",
+    "FlowStop", 
+    "Hypha",
+    "FocusLock",
+    "HistoScan",
+    "STORMRecon",
+    "DPC",
+    "ImSwitchServer",
+    "PixelCalibration",
+    "FocusLock"]
+}

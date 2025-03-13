@@ -12,10 +12,6 @@ Content:
 
 Our goal is to replicate [this experiment](https://openuc2.github.io/docs/Toolboxes/DiscoveryFluorescence/LED_Fluoresence_microscope/) (LED-Powered Fluorescence Microscope).
 
-TODO
-- Flashing and testing LED matrix
-- Using ImSwitch to control the microscope
-
 
 ### 1) Installing the Raspberry Pi (done prior to workshop)
 
@@ -50,7 +46,24 @@ We can now assemble the microscope! These steps are laid out [here](https://open
 
 ### 5) Using ImSwitch for remote control
 
-Let's try to control the microscope remotely using ImSwitch. You can connect to the Raspberry Pi by first joining the network `openuc2-epfl-X` with password `copepode`. Then, open a browser and go to [https://192.168.4.1:8001/imswitch/index.html](https://192.168.4.1:8001/imswitch/index.html).
+Let's try to control the microscope remotely using ImSwitch. You can connect to the Raspberry Pi by first joining the network `openuc2-epfl-X` with password `copepode`. 
+
+(Maybe necessary) Update the Docker configuration.
+
+- With an Android phone, connect to the Raspberry Pi via USB and enable USB tethering (Settings > Connections > Mobile Hotspot and Tethering, Toggle USB Tethering).
+- From your computer, open a browser and go to [http://192.168.4.1:9090](http://192.168.4.1:9090).
+- Login with the username `pi` and password `copepode`.
+- Open a Terminal from the left menu. 
+- Try internet connection with `ping google.com`.
+- Stop the running Docker session by running `docker ps` and `docker stop HASH` (where `HASH` is the hash of the running container).
+- Run `~/Desktop/update_docker_container.sh` and then `~/Desktop/launch_docker_container.sh` to update and launch the Docker container.
+
+
+Remote control of the microscope:
+
+- Open a new browser tab and go to [https://192.168.4.1:8001/imswitch/index.html](https://192.168.4.1:8001/imswitch/index.html).
+- On the left menu, select UC2, then Configuration Editor.
+- Load the file `epfl_hik.json` (if you have it) or create a new file with the content of [this file](epfl_hik.json).
 
 ---
 
