@@ -83,8 +83,7 @@ Download the `pyxu_deconv.ipynb` notebook in this repository.
 You can either:
 
 - run it locally if you have Python 3.10+ installed; or
-- run it on [Google Colab](https://colab.research.google.com/).
-  Log in, then upload the notebook via the `File` menu.
+- run it on [Google Colab]([https://colab.research.google.com/](https://colab.research.google.com/drive/13TjiPVKLJXU-ZfwK0OsG0LYckOIj83q2?usp=sharing))
 
 ---
 ## Build your deep-learning analysis pipeline with deepImageJ & SAMJ
