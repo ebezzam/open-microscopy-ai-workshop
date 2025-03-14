@@ -1,6 +1,6 @@
-# Open Microscropy and AI Workshop
+# Open Microscropy and AI Workshop (EPFL, March 14)
 
-In this repository, you will find the materials for the [Open Microscopy and AI Workshop](https://www.epfl-open-microscopy.com/) at EPFL.
+In this repository, you will find the materials for the [Open Microscopy and AI Workshop](https://www.epfl-open-microscopy.com/) that took place at EPFL on March 14.
 
 Content:
 - [Build our own microscope with OpenUC2](#build-our-own-microscope-with-openuc2)
