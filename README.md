@@ -69,7 +69,14 @@ Remote control of the microscope:
 
 ## Build your deconvolution algorithm with Pyxu
 
-TODO
+Hands-on tutorial to perform image deconvolution with Pyxu.
+Download the `pyxu_deconv.ipynb` notebook in this repository.
+
+You can either:
+
+- run it locally if you have Python 3.10+ installed; or
+- run it on [Google Colab](https://colab.research.google.com/).
+  Log in, then upload the notebook via the `File` menu.
 
 ---
 ## Build your deep-learning analysis pipeline with deepImageJ & SAMJ
