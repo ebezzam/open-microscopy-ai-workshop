@@ -56,14 +56,22 @@ Let's try to control the microscope remotely using ImSwitch. You can connect to 
 - Open a Terminal from the left menu. 
 - Try internet connection with `ping google.com`.
 - Stop the running Docker session by running `docker ps` and `docker stop HASH` (where `HASH` is the hash of the running container).
+- Add the file [`epfl_hik.json`](epfl_hik.json) to `ImSwitchConfig/imcontrol_setups/epfl_hik.json`: 
+```
+vim ImSwitchConfig/imcontrol_setups/epfl_hik.json
+```
+- Edit `setupFileName` in `ImSwitchConfig/config/imcontrol_options.json` to `epfl_hik.json`:
+```
+vim ImSwitchConfig/config/imcontrol_options.json
+```
 - Run `~/Desktop/update_docker_container.sh` and then `~/Desktop/launch_docker_container.sh` to update and launch the Docker container.
 
 
 Remote control of the microscope:
 
 - Open a new browser tab and go to [https://192.168.4.1:8001/imswitch/index.html](https://192.168.4.1:8001/imswitch/index.html).
-- On the left menu, select UC2, then Configuration Editor.
-- Load the file `epfl_hik.json` (if you have it) or create a new file with the content of [this file](epfl_hik.json).
+- On the left menu, select UC2, then Configuration Editor, then "Select Setup".
+- Load the file `epfl_hik.json` (if you have it) or create a new file (via "Configuration Editor") with the content of [this file](epfl_hik.json).
 
 ---
 
