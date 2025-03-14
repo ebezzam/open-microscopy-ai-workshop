@@ -10,11 +10,11 @@ Content:
 
 ## Slides (Morning talks)
 
-- Prof. Suliana Manley (EPFL, Laboratory of Experimental Biophysics) - [Smart Microscopy]()
+- Prof. Suliana Manley (EPFL, Laboratory of Experimental Biophysics) - [Smart Microscopy (coming soon!)]()
 - Dr. Benedict Diederich (openUC2) - [OpenUC2: Open-Science Modular Microscopy](slides/benedict_openuc2.pdf)
-- Dr. Marcos Penedo (EPFL, Laboratory for Bio- and Nano-Instrumentation) - [OpenSPM: A Modular Framework for Smart and Adaptive Microscopy]()
+- Dr. Marcos Penedo (EPFL, Laboratory for Bio- and Nano-Instrumentation) - [OpenSPM: A Modular Framework for Smart and Adaptive Microscopy (coming soon!)]()
 - Dr. Sepand Kashani (EPFL, Center of Imaging) - [Pyxu: A Modular Approach to Imaging Across Domains and Scales](slides/sepand_pyxu.pdf)
-- Dr. Caterina Fuster-Barceló (UC3Madrid, Bioengineering Department) - [Transforming Bioimage Analysis: The AI4Life Approach]()
+- Dr. Caterina Fuster-Barceló (UC3Madrid, Bioengineering Department) - [Transforming Bioimage Analysis: The AI4Life Approach (coming soon!)]()
 
 You can download the slides by clicking the buttom shown below.
 
