@@ -16,6 +16,10 @@ Content:
 - Dr. Sepand Kashani (EPFL, Center of Imaging) - [Pyxu: A Modular Approach to Imaging Across Domains and Scales](slides/sepand_pyxu.pdf)
 - Dr. Caterina Fuster-Barceló (UC3Madrid, Bioengineering Department) - [Transforming Bioimage Analysis: The AI4Life Approach]()
 
+You can download the slides by clicking the buttom shown below.
+
+![Download slides](downloading_slides.png)
+
 
 ## Build our own microscope with OpenUC2
 
@@ -29,6 +33,8 @@ We will build two setups:
 
 Let's start with [this tutorial](https://openuc2.github.io/docs/Toolboxes/DiscoveryCore/ENGLISH/coreMicroscope/#tutorial-smartphone-microscope), which does not require any electronics and will get us familiar with building optical setups with openUC2.
 
+![Smartphone Microscope](smartphone_microscope.png)
+
 If you have any issues, checkout the [troubleshooting page](https://openuc2.github.io/docs/Toolboxes/DiscoveryCore/ENGLISH/coreTroubleshoot/#troubleshooting-and-improving-the-smartphone-microscope).
 
 Next we will build a more advanced microscope for [fluorescence imaging](https://openuc2.github.io/docs/Toolboxes/DiscoveryFluorescence/LED_Fluoresence_microscope) that can be controlled remotely and uses various electronic components (LEDs, motors, cameras). Below we breakdown each step.
@@ -36,6 +42,8 @@ Next we will build a more advanced microscope for [fluorescence imaging](https:/
 ### 1) Assembling the Fluorescence Microscope
 
 We can now assemble the microscope! These steps are laid out [here](https://openuc2.github.io/docs/Toolboxes/DiscoveryFluorescence/LED_Fluoresence_microscope/#step-1-assemble-the-microscope).
+
+![Smart Microscope](smart_microscope.jpeg)
 
 
 ### 2) Installing the Raspberry Pi
