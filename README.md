@@ -52,7 +52,7 @@ Let's try to control the microscope remotely using ImSwitch. You can connect to 
 
 - With an Android phone, connect to the Raspberry Pi via USB and enable USB tethering (Settings > Connections > Mobile Hotspot and Tethering, Toggle USB Tethering).
 - From your computer, open a browser and go to [http://192.168.4.1:9090](http://192.168.4.1:9090).
-- Login with the username `pi` and password `copepode`.
+- Login with the username `pi` and password `youseetoo`.
 - Open a Terminal from the left menu. 
 - Try internet connection with `ping google.com`.
 - Stop the running Docker session by running `docker ps` and `docker stop HASH` (where `HASH` is the hash of the running container).
