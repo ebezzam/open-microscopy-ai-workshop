@@ -3,9 +3,18 @@
 In this repository, you will find the materials for the [Open Microscopy and AI Workshop](https://www.epfl-open-microscopy.com/) that took place at EPFL on March 14.
 
 Content:
+- [Slides (Morning talks)](#slides-morning-talks)
 - [Build our own microscope with OpenUC2](#build-our-own-microscope-with-openuc2)
 - [Build your deconvolution algorithm with Pyxu](#build-your-deconvolution-algorithm-with-pyxu)
 - [Build your deep-learning analysis pipeline with deepImageJ & SAMJ](#build-your-deep-learning-analysis-pipeline-with-deepimagej--samj)
+
+## Slides (Morning talks)
+
+- Prof. Suliana Manley (EPFL, Laboratory of Experimental Biophysics) - [Smart Microscopy]()
+- Dr. Benedict Diederich (openUC2) - [OpenUC2: Open-Science Modular Microscopy](slides/benedict_openuc2.pdf)
+- Dr. Marcos Penedo (EPFL, Laboratory for Bio- and Nano-Instrumentation) - [OpenSPM: A Modular Framework for Smart and Adaptive Microscopy]()
+- Dr. Sepand Kashani (EPFL, Center of Imaging) - [Pyxu: A Modular Approach to Imaging Across Domains and Scales](slides/sepand_pyxu.pdf)
+- Dr. Caterina Fuster-Barceló (UC3Madrid, Bioengineering Department) - [Transforming Bioimage Analysis: The AI4Life Approach]()
 
 
 ## Build our own microscope with OpenUC2
