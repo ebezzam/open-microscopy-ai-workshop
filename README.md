@@ -10,6 +10,8 @@ Content:
 
 ## Slides (Morning talks)
 
+📹 YouTube recordings can be found [here](https://www.youtube.com/watch?v=cI-7Ro7flvQ&list=PLii-VuaV-wB0qnB27cMIuA9Esz9e5z2PY).
+
 - Prof. Suliana Manley (EPFL, Laboratory of Experimental Biophysics) - [Smart Microscopy (coming soon!)]()
 - Dr. Benedict Diederich (openUC2) - [OpenUC2: Open-Science Modular Microscopy](slides/benedict_openuc2.pdf)
 - Dr. Marcos Penedo (EPFL, Laboratory for Bio- and Nano-Instrumentation) - [OpenSPM: A Modular Framework for Smart and Adaptive Microscopy](slides/Marcos_Penedo_OpenSPM_2025.pdf)
